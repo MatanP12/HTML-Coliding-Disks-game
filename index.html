@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disks Game</title>
+    
+</head>
+<body>
+    <main>
+        
+        <h1>Disks Game</h1>
+        <div class="menu"> 
+            <div class="button" id = "start_button"> Start</div>
+            <div class="button" id = "pause_button"> Pause </div>
+            <div class="button" id = "reset_button"> Reset </div>
+        </div>
+        
+        <div class = "timer">
+            <label for='txt_time' >Enter time:</label> 
+            <input type='number' min="1" id='txt_time'>
+        </div>
+        
+        <canvas id="rectangle"></canvas>
+
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Game over</h2>
+              <p id="modal_txt"></p>
+            </div>
+          
+          </div>
+          
+    </main> 
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
